@@ -25,6 +25,9 @@ export default function Layout() {
                 <li>
                     <Link className='nav-link' to="/reducer">Reducer</Link>
                 </li>
+                <li>
+                    <Link className='nav-link' to="/Usestatewithcallback">Usestatewithcallback</Link>
+                </li>
             </ul>
         </nav>
         <Outlet/>

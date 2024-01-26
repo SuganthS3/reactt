@@ -7,6 +7,8 @@ import Counter from './Counter'
 import Layout from './Layout'
 import Effect from './Effect'
 import Reducer from './Reducer'
+import Usestatewithcallback from './Usestatewithcallback'
+
 
 
 export default function App() {
@@ -20,6 +22,7 @@ export default function App() {
       <Route path="counter" element={<Counter/>}/>
       <Route path="Effect" element={<Effect/>}/>
       <Route path="Reducer" element={<Reducer/>}/>
+      <Route path="Usestatewithcallback" element={<Usestatewithcallback/>}/>
     
     </Route>
     </Routes>
